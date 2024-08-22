@@ -1,5 +1,5 @@
 module Blorgh
-  class Config
+  class Configuration
     attr_reader :name, :email
 
     def initialize
