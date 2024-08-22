@@ -4,9 +4,9 @@ require "testing/version"
 require "testing/engine"
 
 module Testing
-  class Error < StandardError; end
-  # Your code goes here...
-  def self.hello
-    puts "Hello, World!"
+  mattr_accessor :app_root
+
+  def self.setup
+    yield self
   end
 end
