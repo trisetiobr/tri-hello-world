@@ -15,8 +15,8 @@ Gem::Specification.new do |spec|
 
   spec.metadata["allowed_push_host"] = "Set to your gem server 'https://example.com'"
   spec.add_runtime_dependency "rails", ">= 6.0"
-  spec.metadata["source_code_uri"] = "https://github.com/trisetiobr/rubygem-tri"
-  spec.metadata["changelog_uri"] = "https://github.com/trisetiobr/rubygem-tri"
+  spec.metadata["source_code_uri"] = "https://github.com/trisetiobr/tri-hello-world"
+  spec.metadata["changelog_uri"] = "https://github.com/trisetiobr/tri-hello-world"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
