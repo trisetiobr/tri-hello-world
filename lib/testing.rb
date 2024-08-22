@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative "testing/version"
-require_relative "testing/engine"
+require "testing/version"
+require "testing/engine"
 
 module Testing
   class Error < StandardError; end
