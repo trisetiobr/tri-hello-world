@@ -1,6 +1,6 @@
 require "blorgh/version"
 require "blorgh/engine"
-require "blorgh/config"
+require "blorgh/configuration"
 
 module Blorgh
   def self.configuration
